@@ -422,8 +422,33 @@
     </model>
     <include>
       <uri>model://cylinder_obstacle</uri>
-      <pose>20 -1 1.05 0 0 0</pose>  
-      <!-- <pose>2.985664 -1.999994 1.05 0 0 0</pose> --> 
+      <name>obstacle 1</name> 
+      <pose>10 -3 1.05 0 0 0</pose>  
     </include>
+    <include>
+      <uri>model://cylinder_obstacle</uri>
+      <name>obstacle 2</name> 
+      <pose>22 -1 1.05 0 0 0</pose>  
+    </include>
+    <include>
+      <uri>model://cylinder_obstacle</uri>
+      <name>obstacle 3</name> 
+      <pose>34 -3 1.05 0 0 0</pose>  
+    </include>
+    <include>
+      <uri>model://cylinder_obstacle</uri>
+      <name>obstacle 4</name> 
+      <pose>-22 -3 1.05 0 0 0</pose>  
+    </include>
+    <include>
+      <uri>model://cylinder_obstacle</uri>
+      <name>obstacle 6</name> 
+      <pose>-44 -1 1.05 0 0 0</pose>  
+    </include>
+    <!-- <include>
+      <uri>model://cylinder_obstacle</uri>
+      <name>obstacle 4</name> 
+      <pose>46 -1 1.05 0 0 0</pose>  
+    </include> -->
   </world>
 </sdf>
